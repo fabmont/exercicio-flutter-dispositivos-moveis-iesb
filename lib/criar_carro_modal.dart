@@ -59,7 +59,7 @@ class _CriarCarroModalState extends State<CriarCarroModal> {
             textInputAction: TextInputAction.done,
             onSubmitted: (_) => _dispatchNewCar(),
             decoration: const InputDecoration(
-              labelText: 'Price',
+              labelText: 'Marca',
               filled: true,
             ),
           ),
